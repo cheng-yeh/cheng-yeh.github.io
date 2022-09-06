@@ -3,80 +3,75 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@INPROCEEDINGS{9200956,  
+	author={Chen, Cheng-Yeh and Hung, Guo-Liang and Hsieh, Hung-Yun},  
+	booktitle={2020 European Conference on Networks and Communications (EuCNC)},   
+	title={A Study on a New Type of DDoS Attack against 5G Ultra-Reliable and Low-Latency Communications},   
+	year={2020},  
+	volume={},  
+	number={},  
+	pages={188-193},  
+	doi={10.1109/EuCNC48522.2020.9200956},
+	abbr={EuCNC},
+	html={https://ieeexplore.ieee.org/document/9200956},
+	pdf={A_Study_on_a_New_Type_of_DDoS_Attack_against_5G_Ultra-Reliable_and_Low-Latency_Communications.pdf
+Cheng_Yeh_VR.pdf},
+	abstract={5G New Radio (NR) allows enhanced Mobile Broadband (eMBB) and Ultra-Reliable Low-Latency Communications (URLLC) to coexist in the physical layer for better resource utilization. To enable the coexistence while satisfying the QoS requirement of URLLC, 3GPP introduces the cancellation mechanism that allows a URLLC UE to preempt the transmission of eMBB UEs. In this paper, we show that the 3GPP design to provide stringent QoS guarantee for URLLC may become a threat to interfere both eMBB and URLLC via highly synchronized low-volume DDoS. We dissect potential vulnerability for both eMBB and URLLC UEs in the uplink from the 3GPP standards. An attack model is investigated and evaluated through system-level simulations. We find that synchronization among compromised URLLC UEs could be leveraged by the attacker to amplify the overall impact on both eMBB throughput and URLLC latency, even when the number of compromised UEs is small.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@ARTICLE{9845682,  
+	author={Chen, Cheng-Yeh and Hsieh, Hung-Yun},  
+	journal={IEEE Wireless Communications Letters},   
+	title={Does Queue Correlation Matter in 5G Multi-Connectivity with Packet Duplication?},   
+	year={2022},  
+	volume={},  
+	number={},  
+	pages={1-1},  
+	doi={10.1109/LWC.2022.3195250},
+	abbr={WCL},
+	html={https://ieeexplore.ieee.org/document/9845682},
+	pdf={Does_Queue_Correlation_Matter_in_5G_Multi-Connectivity_with_Packet_Duplication.pdf},
+	abstract={Multi-connectivity (MC) with packet duplication allows users to connect to multiple base stations for ultra-reliability. While related work has investigated the impact of path correlation in terms of correlated channel fading or shadowing correlation, we argue in this letter that another source of correlation referred to as “queue correlation” needs to be considered to better profile the performance of MC. To proceed, we build a queue-theoretic framework to analyze the origin and impact of queue correlation. Evaluation results show that queue correlation could increase service outage by an order of magnitude compared to the baseline without considering such an effect under a standard 5G urban macro-cell environment.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+
+@ARTICLE{twc,
+	author={Chen, Cheng-Yeh and Hsieh, Hung-Yun},  
+	journal={preprint},
+        abbr={preprint},	
+	title={Cross-Frame Resource Allocation with Context-Aware QoE Estimation for 360° Video Streaming in Wireless Virtual Reality},   
+	year={2022},  
+	volume={},  
+	number={},  
+	pages={},  
+	doi={},
+	pdf={Cheng_Yeh_VR.pdf},
+	abstract={Wireless virtual reality (VR), aiming to provide an untethered immersive experience through 360° videos, could be facilitated by viewport-guided streaming with the help of viewport prediction. Although many recent viewport predictors can output a series of predictions over upcoming frames, most existing work on video streaming does not fully utilize the capability of these predictors. In this paper, we investigate the problem of 360° video streaming by incorporating the complete series of viewport predictions for maximizing the quality of experience (QoE) through cross-frame resource allocation. To address the problem of viewport prediction errors that could result in erroneous estimation of QoE contribution of tiles in upcoming frames, we develop a novel approach based on contextual multi- armed bandit (CMAB) to “learn” online the viewing behavior of the user and the capability of the predictor such that resource can be preferentially allocated to tiles with significant QoE contribution. Further, to address the problem of transmission failures during wireless streaming, we formulate a constrained Markov decision process (CMDP) and apply model predictive control (MPC) to account for resource competition among reactive and proactive transmissions as well as retransmissions of tiles. The performance of the proposed streaming system is evaluated using a real-world VR dataset, state-of- the-art viewport predictors, and realistic mmWave channel models. An improvement of 10.2% in QoE and a reduction of 18.7% in resource waste are achieved across various videos, users, and predictors. Simulation results substantiate that the context-aware QoE learned by the proposed CMAB effectively addresses prediction errors for tiles with different temporal and spatial contexts, and the proposed CMDP can achieve the desired performance even under tight bandwidth constraint and severe channel condition.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@ARTICLE{icme,  
+	author={Chen, Cheng-Yeh and Hsieh, Hung-Yun},  
+	journal={preprint},   
+        abbr={preprint},	
+	title={SweeTile: An Efficient Fixed Equirectangular Tiling for Large-Scale 360° Video
+Service and Light-Weight VR Devices},   
+	year={2022},
+	volume={},  
+	number={},  
+	pages={},  
+	doi={}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@ARTICLE{tvt,  
+	author={Hsieh, Hung-Yun and Chen, Hung-Hsien and Chen, Cheng-Yeh and Yang, Ching-Wei},  
+	journal={preprint},   
+        abbr={preprint},	
+	title={Resource Optimization in Lossy Wireless Sensor Networks Based on Compressive Sensing},   
+	year={2022},  
+	volume={},  
+	number={},  
+	pages={},  
+	doi={},
 }
