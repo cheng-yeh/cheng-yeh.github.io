@@ -1,0 +1,15 @@
+---
+layout: page
+title: resume
+order: 5
+permalink: /assets/pdf/cheng_yeh_chen_resume.pdf
+nav: true
+---
+
+<!-- <a href="/assets/pdf/brian_chao_resume.pdf" download>Download resume</a>
+
+<object data="/assets/pdf/brian_chao_resume.pdf" type="application/pdf" width="100%" height="1000px">
+    <embed src="/assets/pdf/brian_chao_resume.pdf">
+    </embed>
+</object>
+--> 
