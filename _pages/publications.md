@@ -5,7 +5,7 @@ title: Publications
 description: Cheng-Yeh's publications.
 years: [2022, 2020]
 nav: true
-nav_order: 1
+order: 2
 ---
 <!-- _pages/publications.md -->
 <div class="publications">

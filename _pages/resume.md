@@ -1,8 +1,8 @@
 ---
 layout: page
 title: resume
-order: 5
 permalink: /assets/pdf/cheng_yeh_chen_resume.pdf
+order: 3
 nav: true
 ---
 
