@@ -24,6 +24,5 @@ In Mobile Networks and Wireless Communications Research Group ([TONIC](http://to
 
 I am looking for a Ph.D. position in 2023. My research interests include 
 * video prefetching over traditional/short/360°/volumetric videos, 
-* efficient tiling mechanism for 360° videos, 
-* resource optimization for streaming service over 5G infrastructure.
-
+* cross-layer design and optimization for 5G standard,
+* system architecture for streaming service over 5G infrastructure.
