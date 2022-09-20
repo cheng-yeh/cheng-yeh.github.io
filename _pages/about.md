@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: cheng_yeh_chen_pic.jpg
+  image: ms_graduate_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>email: r08942083 [at]</p>
