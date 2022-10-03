@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: publications
 description: Cheng-Yeh's publications.
 years: [2022, 2020]
 nav: true
