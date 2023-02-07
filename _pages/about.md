@@ -23,4 +23,4 @@ I will be a Ph.D. student in [Georgia Tech ECE](https://www.ece.gatech.edu) from
 My future research will focus on EEG-based brain-computer-interface (BCI) with the ambition to bring BCI into everyday life.
 
 I received my BS and MS degree in [electrical engineering](https://web.ee.ntu.edu.tw/eng/index.php) and [communication engineering](https://comm.ntu.edu.tw/en/) from National Taiwan University. 
-I am fortunate to have worked with Prof. [Hung-Yun Hsieh](https://www.ee.ntu.edu.tw/profile1.php?id=306) in Mobile Networks and Wireless Communications Research Group ([TONIC](http://tonic.ee.ntu.edu.tw) on several research topics including security and performance issues on 5G communication standards, wireless virtual reality, and 360° video streaming.
+I am fortunate to have worked with Prof. [Hung-Yun Hsieh](https://www.ee.ntu.edu.tw/profile1.php?id=306) in Mobile Networks and Wireless Communications Research Group ([TONIC](http://tonic.ee.ntu.edu.tw)) on several research topics including security and performance issues on 5G communication standards, wireless virtual reality, and 360° video streaming.
