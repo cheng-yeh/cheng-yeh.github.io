@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I will be a Ph.D. student in [Georgia Tech ECE](https://www.ece.gatech.edu) from Fall 2023, advised by Prof. [Raghupathy Sivakumar](https://siva.ece.gatech.edu).
-My future research will focus on EEG-based brain-computer-interface (BCI) with the ambition to bring BCI into everyday life.
+My future research direction will focus on EEG-based brain-computer-interface (BCI) with the ambition to bring BCI into everyday life for everyone on the planet.
 
-I received my BS and MS degree in [electrical engineering](https://web.ee.ntu.edu.tw/eng/index.php) and [communication engineering](https://comm.ntu.edu.tw/en/) from National Taiwan University. 
+From National Taiwan University, I received my BS and MS degree in [electrical engineering](https://web.ee.ntu.edu.tw/eng/index.php) and [communication engineering](https://comm.ntu.edu.tw/en/). 
 I am fortunate to have worked with Prof. [Hung-Yun Hsieh](https://www.ee.ntu.edu.tw/profile1.php?id=306) in Mobile Networks and Wireless Communications Research Group ([TONIC](http://tonic.ee.ntu.edu.tw)) on several research topics including security and performance issues on 5G communication standards, wireless virtual reality, and 360° video streaming.
