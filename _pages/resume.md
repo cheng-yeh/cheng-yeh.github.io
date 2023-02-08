@@ -1,7 +1,7 @@
 ---
 layout: page
 title: resume
-permalink: /assets/pdf/cheng_yeh_chen_resume_202302.pdf
+permalink: /assets/pdf/cheng_yeh_chen_202302.pdf
 order: 3
 nav: true
 ---
