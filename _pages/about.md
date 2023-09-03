@@ -9,9 +9,8 @@ profile:
   image: gt_tower.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>email: cchen847 [at]</p>
-    <p>gatech [dot] edu</p>
-    <p>Technology Square 75 5th St NW</p>
+    <p>cchen847[at]gatech[dot]edu</p>
+    <p>Technology Square 75 5th St</p>
     <p>Atlanta, GA 30308</p>
 
 news: true  # includes a list of news items
