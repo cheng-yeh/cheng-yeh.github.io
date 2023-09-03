@@ -11,8 +11,8 @@ profile:
   address: >
     <p>email: cchen847 [at]</p>
     <p>gatech [dot] edu</p>
-<p>Technology Square 75 5th St NW</p>
-<p>Atlanta, GA 30308</p>
+    <p>Technology Square 75 5th St NW</p>
+    <p>Atlanta, GA 30308</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
