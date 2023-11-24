@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Georgia Tech ECE</a>. Atlanta, GA. cchen847[at]gatech[dot]edu.
 
 profile:
   align: right
-  image: gt_tower.jpg
+  image: toledo.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>cchen847[at]gatech[dot]edu</p>
-    <p>Technology Square 75 5th St</p>
-    <p>Atlanta, GA 30308</p>
+    <p>Toledo, Spain</p>
+    <p>Oct 8, 2023</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
