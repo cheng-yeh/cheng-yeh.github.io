@@ -13,8 +13,11 @@
 	pages={188-193},  
 	doi={10.1109/EuCNC48522.2020.9200956},
 	abbr={EuCNC},
+	bibtex_show={true},
 	html={https://ieeexplore.ieee.org/document/9200956},
 	pdf={A_Study_on_a_New_Type_of_DDoS_Attack_against_5G_Ultra-Reliable_and_Low-Latency_Communications.pdf},
+	website={https://youtu.be/Hee1y5cGv6A},
+	slides={Cheng-Yeh_EuCNC19_slide.pdf},
 	abstract={5G New Radio (NR) allows enhanced Mobile Broadband (eMBB) and Ultra-Reliable Low-Latency Communications (URLLC) to coexist in the physical layer for better resource utilization. To enable the coexistence while satisfying the QoS requirement of URLLC, 3GPP introduces the cancellation mechanism that allows a URLLC UE to preempt the transmission of eMBB UEs. In this paper, we show that the 3GPP design to provide stringent QoS guarantee for URLLC may become a threat to interfere both eMBB and URLLC via highly synchronized low-volume DDoS. We dissect potential vulnerability for both eMBB and URLLC UEs in the uplink from the 3GPP standards. An attack model is investigated and evaluated through system-level simulations. We find that synchronization among compromised URLLC UEs could be leveraged by the attacker to amplify the overall impact on both eMBB throughput and URLLC latency, even when the number of compromised UEs is small.}
 }
 
@@ -29,6 +32,7 @@
 	pages={1-1},  
 	doi={10.1109/LWC.2022.3195250},
 	abbr={WCL},
+	bibtex_show={true},
 	html={https://ieeexplore.ieee.org/document/9845682},
 	pdf={Does_Queue_Correlation_Matter_in_5G_Multi-Connectivity_with_Packet_Duplication.pdf},
 	abstract={Multi-connectivity (MC) with packet duplication allows users to connect to multiple base stations for ultra-reliability. While related work has investigated the impact of path correlation in terms of correlated channel fading or shadowing correlation, we argue in this letter that another source of correlation referred to as “queue correlation” needs to be considered to better profile the performance of MC. To proceed, we build a queue-theoretic framework to analyze the origin and impact of queue correlation. Evaluation results show that queue correlation could increase service outage by an order of magnitude compared to the baseline without considering such an effect under a standard 5G urban macro-cell environment.}
@@ -45,7 +49,9 @@
 	doi={},
 	selected={true},
 	abbr={TWC},
+	bibtex_show={true},
 	html={https://ieeexplore.ieee.org/document/10077518},
+	supp={Cheng-Yeh_TWC2023_supp.pdf},
 	abstract={Wireless virtual reality (VR), aiming to provide an untethered immersive experience through 360◦ videos, could be facilitated by viewport-guided streaming with the help of viewport prediction. Although many recent viewport predictors can output a series of predictions over upcoming frames, most existing work on video streaming does not fully utilize the capability of these predictors. In this paper, we investigate the problem of 360◦ video streaming by incorporating the complete series of viewport predictions for maximizing the quality of experience (QoE) through cross-frame resource allocation. To address the problem of viewport prediction errors that could result in erroneous estimation of QoE contribution of tiles in upcoming frames, we develop a novel approach based on contextual multi-armed bandit (CMAB) to “learn” online the viewing behavior of the user and the capability of the predictor such that resource can be preferentially allocated to tiles with significant QoE contribution. Further, to address the problem of transmission failures during wireless streaming, we formulate a constrained Markov decision process (CMDP) and apply model predictive control (MPC) to account for resource competition among reactive and proactive transmissions as well as retransmissions of tiles. The performance of the proposed streaming system is evaluated using a real-world VR dataset, state-of-the-art viewport predictors, and realistic mmWave channel models. An improvement of 10.2\% in QoE and a reduction of 18.7\% in resource waste are achieved across various videos, users, and predictors. Simulation results substantiate that the context-aware QoE learned by the proposed CMAB effectively addresses prediction errors for tiles with different temporal and spatial contexts, and the proposed CMDP can achieve the desired performance even under tight bandwidth constraint and severe channel condition.}
 }
 %abstract={Wireless virtual reality (VR), aiming to provide an untethered immersive experience through 360° videos, could be facilitated by viewport-guided streaming with the help of viewport prediction. Although many recent viewport predictors can output a series of predictions over upcoming frames, most existing work on video streaming does not fully utilize the capability of these predictors. In this paper, we investigate the problem of 360° video streaming by incorporating the complete series of viewport predictions for maximizing the quality of experience (QoE) through cross-frame resource allocation. To address the problem of viewport prediction errors that could result in erroneous estimation of QoE contribution of tiles in upcoming frames, we develop a novel approach based on contextual multi- armed bandit (CMAB) to “learn” online the viewing behavior of the user and the capability of the predictor such that resource can be preferentially allocated to tiles with significant QoE contribution. Further, to address the problem of transmission failures during wireless streaming, we formulate a constrained Markov decision process (CMDP) and apply model predictive control (MPC) to account for resource competition among reactive and proactive transmissions as well as retransmissions of tiles. The performance of the proposed streaming system is evaluated using a real-world VR dataset, state-of- the-art viewport predictors, and realistic mmWave channel models. An improvement of 10.2% in QoE and a reduction of 18.7% in resource waste are achieved across various videos, users, and predictors. Simulation results substantiate that the context-aware QoE learned by the proposed CMAB effectively addresses prediction errors for tiles with different temporal and spatial contexts, and the proposed CMDP can achieve the desired performance even under tight bandwidth constraint and severe channel condition.}
@@ -58,8 +64,10 @@
 	year={2023},  
 	volume={},  
 	number={},  
-	pages={},  
-	doi={},
+	pages={1088-1093},
+	doi={10.1109/ICCWorkshops57953.2023.10283536},
+	bibtex_show={true},
+	slides={Cheng-Yeh_ICC23_MetaNC_slide.pdf},
 	selected={true},
 }
 %abstract={Current solutions for viewport-aware tile-based 360◦ video streaming include fixed tiling and adaptive tiling. Fixed tiling often suffers from tradeoffs between transmission efficiency and encoding efficiency, thus degrading achievable quality of service on the client side. On the other hand, existing adaptive tiling solutions typically require fine-grain and dynamic tiling mechanisms, thus imposing higher computation overhead for both server and client sides. These limitations hence hinder large-scale deployment of cost-effective 360◦ streaming solutions. In this work, we propose an adaptive tiling mechanism that can effectively improve both encoding and transmission efficiency to facilitate light-weight VR devices on large-scale 360◦ video service. We start by motivating the existence of “sweet spots” for an equirectangular projection (ERP). If a user’s viewport falls inside the region of sweet spots, the required bitrate to achieve high visual quality would be relatively small. We thus propose “SweeTile” to make most viewpoints fall within the coverage of sweet spots by deploying 24 versions of 6×3 ERP with various rotations at the video server. Simulation results show that SweeTile improves both the encoding and transmission efficiency by 10% with light computation on the video server and no extra computation on the end users.}
@@ -67,7 +75,7 @@
 
 @ARTICLE{tvt,  
 	author={Chen, Hung-Hsien and Chen, Cheng-Yeh and Yang, Ching-Wei and Hsieh, Hung-Yun},  
-	journal={Submission to IEEE Transactions on Vehicular Technology},   
+	journal={Submitted to IEEE Transactions on Vehicular Technology},   
 	title={Data-Centric Resource Allocation for Machine-Type Communications with Lossy Links Based on Compressive Sensing},   
 	year={2023},
 	abbr={Submitted},
@@ -88,18 +96,20 @@
 	doi={},
 	series={SmartWear '23},
 	selected={true},
+	slides={Cheng-Yeh_MobiCom23_SmartWear_slide.pdf},
+	bibtex_show={true},
 }
 
-@INPROCEEDINGS{icc24,
+@ARTICLE{icc24,
 	author={Wu, Yi-Pao Wu and Chen, Cheng-Yeh and Li, Tsung-Yu and Hsieh, Hung-Yun},  
-	booktitle={Submission to IEEE International Conference on Communications},
+	booktitle={Submitted to IEEE International Conference on Communications},
         abbr={Submitted},	
 	title={Towards Optimal Multiview Transcoding for Edge-Assisted Wireless Volumetric Streaming},
 	year={2024},  
 	selected={false},
 }
 
-@INPROCEEDINGS{draft,
+@ARTICLE{draft,
 	author={Hou, Hao-Zhong and Huang, Hong-Chen and Chen, Cheng-Yeh and Hung-Yun Hsieh},  
 	booktitle={Draft},
         abbr={Draft},	
