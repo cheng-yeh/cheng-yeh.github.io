@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student at [Georgia Tech ECE](https://www.ece.gatech.edu), advised by Prof. [Raghupathy Sivakumar](https://siva.ece.gatech.edu) in the Georgia Tech [GNAN](https://gnan.ece.gatech.edu/index.html) lab. I study how brains and AI models see the world differently — and what they can teach each other. My research sits at the intersection of neuroscience and deep learning, organized around three themes:
+I am a Ph.D. student at [Georgia Tech ECE](https://www.ece.gatech.edu), advised by Prof. [Raghupathy Sivakumar](https://siva.ece.gatech.edu) in the Georgia Tech [GNAN](https://gnan.ece.gatech.edu/index.html) lab. I study how brains and AI models experience the world in surprisingly similar ways — and how each can unlock new capabilities in the other. My research sits at the intersection of neuroscience and deep learning, organized around three themes:
 
 - **Brain-machine alignment** (🧠🔄🤖) — Mapping the computational parallels between transformers and the brain.
 - **Transformer interpretability** (🧠➡️🤖) — Using the brain's functional topography as a lens to understand and steer what vision and language models learn.
